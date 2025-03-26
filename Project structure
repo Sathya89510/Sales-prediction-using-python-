@@ -1,0 +1,35 @@
+sales-prediction-project/
+│
+├── data/
+│   ├── raw/                    # Original datasets
+│   │   ├── advertising.csv
+│   │   └── sales_history.csv
+│   └── processed/              # Cleaned and processed data
+│       ├── clean_data.csv
+│       └── features.csv
+│
+├── notebooks/
+│   ├── 1_data_exploration.ipynb
+│   ├── 2_feature_engineering.ipynb
+│   └── 3_model_development.ipynb
+│
+├── src/
+│   ├── data_processing.py
+│   ├── feature_selection.py
+│   └── model_training.py
+│
+├── models/
+│   ├── best_model.pkl
+│   ├── model_performance.json
+│   └── feature_importance.png
+│
+├── reports/
+│   ├── figures/
+│   │   ├── sales_trends.png
+│   │   ├── correlation_matrix.png
+│   │   └── prediction_vs_actual.png
+│   └── final_report.md
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
